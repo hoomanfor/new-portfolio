@@ -1,0 +1,23 @@
+@use '../../styles/variables' as *;
+
+.aboutSectionWrapper {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  gap: $main-padding * 2;
+  max-width: 1000px;
+  margin: $main-margin * 4 auto;
+  align-items: center;
+}
+
+.iconsContainer {
+  font-size: $main-font-size * 2;
+  text-align: center;
+
+  svg {
+    fill: $pretty-black-90;
+
+    &:first-child {
+      margin-right: $main-margin * .5;
+    }
+  }
+}
