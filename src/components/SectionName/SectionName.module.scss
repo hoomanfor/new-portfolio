@@ -1,0 +1,16 @@
+@use '../../styles/variables' as *;
+
+.sectionNameWrapper {
+  background-color: black;
+  text-align: center;
+  padding: $main-padding * 2 0;
+
+  h2 {
+    color: white; 
+  }
+
+  p {
+    color: white; 
+    margin: 0;
+  }
+}
