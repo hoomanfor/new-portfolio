@@ -18,10 +18,18 @@ export const AboutSection = () => {
             problems using the scientific method.
           </p>
           <div className={styles.iconsContainer}>
-            <a target="_blank" href="https://www.linkedin.com/in/hoomanfor/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/hoomanfor/"
+            >
               <FaLinkedin />
             </a>
-            <a target="_blank" href="https://github.com/hoomanfor">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/hoomanfor"
+            >
               <FaGithub />
             </a>
           </div>
