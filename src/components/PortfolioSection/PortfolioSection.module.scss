@@ -1,0 +1,16 @@
+@use '../../styles/variables' as *;
+
+.projectsContainer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: $main-gap;
+  margin: $main-margin * 3 0 $main-margin * 4 0;
+}
+
+.project1 {
+  grid-column: 3 / 7;
+}
+
+.project2 {
+  grid-column: 7 / 11;
+}

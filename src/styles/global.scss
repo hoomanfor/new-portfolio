@@ -12,7 +12,9 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
   color: $pretty-black;
   font-weight: $main-font-weight; 
   line-height: 1;
@@ -25,7 +27,11 @@ h1 {
 }
 
 h2 {
-  font-size: $main-font-size * 2; 
+  font-size: $main-font-size * 2.5;
+}
+
+h3 {
+  font-size: $main-font-size * 2;
 }
 
 p {
@@ -33,6 +39,15 @@ p {
   font-weight: $main-font-weight;
   line-height: 1.5;
   margin: 0 0 $main-margin 0;
+}
+
+a {
+  font-weight: $main-font-weight; 
+}
+
+b,
+strong {
+  font-weight: 700;
 }
 
 .global-max-width {
