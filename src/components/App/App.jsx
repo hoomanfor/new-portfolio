@@ -1,6 +1,8 @@
+import styles from "./App.module.scss";
+
 import { Nav } from "../Nav/Nav.jsx";
 import { AboutSection } from "../AboutSection/AboutSection.jsx";
-import { SectionName } from "../SectionName/SectionName.jsx";
+import { PortfolioSection } from "../PortfolioSection/PortfolioSection";
 
 export const App = () => {
   return (
@@ -10,13 +12,7 @@ export const App = () => {
       </header>
       <main>
         <AboutSection />
-        <section>
-          <SectionName
-            heading="Portfolio"
-            description="Below are a couple projects I've enjoyed working on recently."
-            targetId="#portfolio"
-          />
-        </section>
+        <PortfolioSection />
       </main>
     </>
   );

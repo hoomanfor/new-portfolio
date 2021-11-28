@@ -1,0 +1,51 @@
+@use '../../styles/variables' as *;
+
+.projectCard {
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  border-bottom: 2px solid black;
+
+
+  img {
+    max-width: 200px; 
+  }
+}
+
+.contentContainer {
+  text-align: center;
+  padding: $main-padding * 2;
+
+
+  .skill {
+    text-transform: uppercase;
+    line-height: 1; 
+    padding-bottom: $main-padding;
+    color: $pretty-black-90;
+    font-size: $main-font-size * .75;
+  }
+
+  .projectName {
+    margin: 0;
+    padding-bottom: $main-padding / 2;
+  }
+
+  .projectDescription {
+    line-height: 1.15;
+  }
+
+  .button {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: $main-padding * .75 $main-padding * 2;
+    border-radius: $main-button-border-radius;
+  }
+}

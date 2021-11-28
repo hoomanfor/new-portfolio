@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./Nav.module.scss";
 import logo from "../../images/hooman-logo.svg";
 
