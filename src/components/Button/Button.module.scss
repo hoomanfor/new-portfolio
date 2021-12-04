@@ -1,0 +1,10 @@
+@use '../../styles/variables' as *;
+
+.primary {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: $main-padding * .75 $main-padding * 2;
+  border-radius: $main-button-border-radius;
+}

@@ -1,6 +1,6 @@
-import React from "react";
-
 import styles from "./ProjectCard.module.scss";
+
+import { Button } from "../Button/Button";
 
 export const ProjectCard = ({
   skill,
@@ -22,22 +22,15 @@ export const ProjectCard = ({
           <img src={imageUrl} alt={projectName} />
         </div>
       </a>
+      <div className={styles.skill}>
+        <b>{skill}</b>
+      </div>
       <div className={styles.contentContainer}>
-        <div className={styles.skill}>
-          <b>{skill}</b>
-        </div>
         <h3 className={styles.projectName}>
           <b>{projectName}</b>
         </h3>
         <p className={styles.projectDescription}>{projectDescription}</p>
-        <a
-          className={styles.button}
-          href={projectUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Visit Site
-        </a>
+        <Button url={projectUrl} text="Visit Site" />
       </div>
     </div>
   );

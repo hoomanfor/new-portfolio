@@ -41,6 +41,10 @@ p {
   margin: 0 0 $main-margin 0;
 }
 
+code {
+  font-family: 'Fira Code', monospace;
+}
+
 a {
   font-weight: $main-font-weight; 
 }
@@ -50,8 +54,20 @@ strong {
   font-weight: 700;
 }
 
+button, 
+input[type="submit"], 
+input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
 .global-max-width {
   max-width: 1260px;
   margin: 0 auto;
-  padding: 0 32px; 
+  padding: 0 $main-padding * 2; 
 }
