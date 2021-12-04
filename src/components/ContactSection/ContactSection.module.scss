@@ -1,0 +1,61 @@
+@use '../../styles/variables' as *;
+
+.contactInfoContainer {
+  text-align: center;
+  margin: $main-margin * 3 0 $main-margin * 4 0;
+
+  button {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: $main-padding * .75 $main-padding * 2;
+    border-radius: $main-button-border-radius;
+  }
+
+  .emailContainer {
+    position: relative;
+    display: inline-block;
+    background-color: $pretty-black-10;
+    padding: $main-padding $main-padding * 2;
+    border: 2px solid transparent;
+    border-radius: 2px; 
+
+    &:hover {
+      cursor: pointer;
+      border: 2px dashed $pretty-black-90;
+    }
+
+    &:hover .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .tooltip {
+      visibility: hidden;
+      font-size: $main-font-size * 0.75;
+      border-radius: $main-button-border-radius;
+      background-color: black;
+      color: white;
+      position: absolute;
+      padding: $main-padding * 0.5 $main-padding;
+      top: 64px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: max-content;
+      opacity: 0;
+      transition: opacity 0.2s;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 95%;
+        left: 50%;
+        margin-left: -8px;
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent transparent black transparent;
+      }
+    }
+  }
+}

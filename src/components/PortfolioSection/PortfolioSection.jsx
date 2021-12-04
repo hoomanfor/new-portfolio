@@ -10,7 +10,7 @@ export const PortfolioSection = () => {
     <section>
       <SectionName
         heading="Portfolio"
-        description="Below are a couple of projects I enjoy working on."
+        description="Below are a couple of projects I enjoy contributing to:"
         targetId="#portfolio"
       />
       <div className="global-max-width">

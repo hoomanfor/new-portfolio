@@ -10,26 +10,25 @@
   justify-content: center;
   align-items: center;
   min-height: 200px;
-  border-bottom: 2px solid black;
-
 
   img {
     max-width: 200px; 
   }
 }
 
+.skill {
+  background-color: black;
+  text-transform: uppercase;
+  line-height: 1; 
+  padding: $main-padding * 0.5;
+  color: white;
+  font-size: $main-font-size * .75;
+  text-align: center;
+}
+
 .contentContainer {
   text-align: center;
-  padding: $main-padding * 2;
-
-
-  .skill {
-    text-transform: uppercase;
-    line-height: 1; 
-    padding-bottom: $main-padding;
-    color: $pretty-black-90;
-    font-size: $main-font-size * .75;
-  }
+  padding: $main-padding * 1.5 $main-padding * 4;
 
   .projectName {
     margin: 0;
@@ -38,14 +37,5 @@
 
   .projectDescription {
     line-height: 1.15;
-  }
-
-  .button {
-    background-color: black;
-    color: white;
-    display: inline-block;
-    text-decoration: none;
-    padding: $main-padding * .75 $main-padding * 2;
-    border-radius: $main-button-border-radius;
   }
 }
