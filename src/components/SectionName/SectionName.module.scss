@@ -5,12 +5,13 @@
   text-align: center;
   padding: $main-padding * 2 0;
 
-  h2 {
-    color: white; 
+  h2,
+  p {
+    color: white;
+    margin: 0;
   }
 
   p {
-    color: white; 
-    margin: 0;
+    margin-top: $main-margin;
   }
 }
