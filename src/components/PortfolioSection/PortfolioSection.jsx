@@ -11,7 +11,7 @@ export const PortfolioSection = () => {
       <SectionName
         heading="Portfolio"
         description="Below are a couple of projects I enjoy contributing to:"
-        targetId="#portfolio"
+        targetId="portfolio"
       />
       <div className="global-max-width">
         <div className={styles.projectsContainer}>
