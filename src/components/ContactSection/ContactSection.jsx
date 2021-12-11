@@ -14,7 +14,7 @@ export const ContactSection = () => {
 
   return (
     <section>
-      <SectionName heading="Contact" targetId="#contact" />
+      <SectionName heading="Contact" targetId="contact" />
       <div className="global-max-width">
         <div className={styles.contactInfoContainer}>
           <h3>Email me</h3>
