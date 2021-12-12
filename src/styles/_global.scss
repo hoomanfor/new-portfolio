@@ -25,14 +25,26 @@ h4 {
 h1 {
   font-size: $main-font-size * 3; 
   letter-spacing: -($main-font-size * .15);
+
+  @media (max-width: 840px) {
+    font-size: $main-font-size * 2.5;
+  }
 }
 
 h2 {
   font-size: $main-font-size * 2.5;
+
+  @media (max-width: 840px) {
+    font-size: $main-font-size * 2;
+  }
 }
 
 h3 {
   font-size: $main-font-size * 2;
+
+  @media (max-width: 840px) {
+    font-size: $main-font-size * 1.5;
+  }
 }
 
 p {
@@ -70,5 +82,9 @@ input[type="reset"] {
 .global-max-width {
   max-width: 1260px;
   margin: 0 auto;
-  padding: 0 $main-padding * 2; 
+  padding: 0 $main-padding * 2;
+
+  @media (max-width: 840px) {
+    padding: 0 $main-padding;
+  }
 }

@@ -1,6 +1,7 @@
 // Colors
 $pretty-black: #1F1E22;
 $pretty-black-90: rgba($pretty-black, 0.9);
+$pretty-black-80: rgba($pretty-black, 0.8);
 $pretty-black-10: rgba($pretty-black, 0.1);
 
 // Typography
@@ -12,6 +13,3 @@ $main-font-weight: 500;
 $main-margin: 1rem; 
 $main-padding: 1rem; 
 $main-gap: 1rem;
-
-// Buttons
-$main-button-border-radius: 1rem * 1.5;

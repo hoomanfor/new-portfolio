@@ -1,7 +1,7 @@
 @use '../../styles/variables' as *;
 
 footer {
-  background-color: black;
+  background-color: $pretty-black;
   text-align: center;
   padding: $main-padding * 2 0;
 }
@@ -15,6 +15,11 @@ footer {
 
     &:first-child {
       margin-right: $main-margin * .5;
+    }
+
+    &:hover,
+    &:focus {
+      fill: rgba(white, .7);
     }
   }
 }

@@ -1,7 +1,7 @@
 @use '../../styles/variables' as *;
 
 .sectionNameWrapper {
-  background-color: black;
+  background-color: $pretty-black;
   text-align: center;
   padding: $main-padding * 2 0;
 
