@@ -1,10 +1,20 @@
 @use '../../styles/variables' as *;
 
 .primary {
-  background-color: black;
+  background-color: $pretty-black-90;
+  border: 2px solid transparent;
   color: white;
   display: inline-block;
   text-decoration: none;
-  padding: $main-padding * .5 $main-padding;
-  border-radius: $main-button-border-radius;
+  padding: $main-padding * .5 $main-padding * 2;
+  border-radius: 8px;
+  letter-spacing: 0.50px;
+
+  &:hover,
+  &:focus {
+    background-color: white;
+    border: 2px solid $pretty-black-90;
+    color: $pretty-black-90;
+    transition: all 0.1s ease-in-out;
+  }
 }

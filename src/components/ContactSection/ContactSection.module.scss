@@ -4,15 +4,6 @@
   text-align: center;
   margin: $main-margin * 3 0 $main-margin * 4 0;
 
-  button {
-    background-color: black;
-    color: white;
-    display: inline-block;
-    text-decoration: none;
-    padding: $main-padding * .75 $main-padding * 2;
-    border-radius: $main-button-border-radius;
-  }
-
   .emailContainer {
     position: relative;
     display: inline-block;
@@ -34,8 +25,8 @@
     .tooltip {
       visibility: hidden;
       font-size: $main-font-size * 0.75;
-      border-radius: $main-button-border-radius;
-      background-color: black;
+      border-radius: 8px;
+      background-color: $pretty-black-90;
       color: white;
       position: absolute;
       padding: $main-padding * 0.5 $main-padding;
@@ -49,12 +40,12 @@
       &::after {
         content: "";
         position: absolute;
-        bottom: 95%;
+        bottom: 100%;
         left: 50%;
         margin-left: -8px;
         border-width: 8px;
         border-style: solid;
-        border-color: transparent transparent black transparent;
+        border-color: transparent transparent $pretty-black-90 transparent;
       }
     }
   }

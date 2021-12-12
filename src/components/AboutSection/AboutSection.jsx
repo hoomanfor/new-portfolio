@@ -6,7 +6,7 @@ export const AboutSection = () => {
   return (
     <section id="#about" className="global-max-width">
       <div className={styles.aboutSectionWrapper}>
-        <div>
+        <div className={styles.introductionSection}>
           <h1>
             Hello,
             <br />
@@ -34,7 +34,7 @@ export const AboutSection = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div className={styles.headshotSection}>
           <img src={headshot} alt="Hooman's Headshot" />
         </div>
       </div>

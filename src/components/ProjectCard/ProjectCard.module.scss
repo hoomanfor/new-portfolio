@@ -1,7 +1,7 @@
 @use '../../styles/variables' as *;
 
 .projectCard {
-  border: 2px solid black;
+  border: 8px solid $pretty-black-90;
   border-radius: 8px;
 }
 
@@ -17,13 +17,14 @@
 }
 
 .skill {
-  background-color: black;
+  background-color: $pretty-black-90;
   text-transform: uppercase;
   line-height: 1; 
   padding: $main-padding * 0.5;
   color: white;
   font-size: $main-font-size * .75;
   text-align: center;
+  letter-spacing: 0.50px;
 }
 
 .contentContainer {
@@ -31,11 +32,13 @@
   padding: $main-padding * 1.5 $main-padding * 4;
 
   .projectName {
+    color: $pretty-black-90;
     margin: 0;
     padding-bottom: $main-padding * 0.5;
   }
 
   .projectDescription {
     line-height: 1.15;
+    margin-bottom: 1.5rem;
   }
 }
