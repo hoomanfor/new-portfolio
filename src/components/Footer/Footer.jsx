@@ -17,7 +17,7 @@ export const Footer = () => {
         </a>
       </div>
       <div className={styles.copywriteNotice}>
-        Copyright © 2021 Hooman Foroudastan
+        Copyright © 2022 Hooman Foroudastan
       </div>
     </footer>
   );

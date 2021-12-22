@@ -1,7 +1,7 @@
 @use '../../styles/variables' as *;
 
 .projectCard {
-  border: 8px solid $pretty-black-90;
+  border: 8px solid $pretty-black;
   border-radius: 8px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .skill {
-  background-color: $pretty-black-90;
+  background-color: $pretty-black;
   text-transform: uppercase;
   line-height: 1; 
   padding: $main-padding * 0.5;
@@ -28,17 +28,30 @@
 }
 
 .contentContainer {
+  position: relative;
   text-align: center;
-  padding: $main-padding * 1.5 $main-padding * 4;
+  padding: $main-padding * 1 $main-padding * 4;
 
   .projectName {
-    color: $pretty-black-90;
+    color: $pretty-black;
     margin: 0;
     padding-bottom: $main-padding * 0.5;
   }
 
   .projectDescription {
     line-height: 1.15;
-    margin-bottom: 1.5rem;
+  }
+
+  a {
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media (max-width: 840px) {
+      display: block;
+      position: relative;
+      bottom: 0;
+    }
   }
 }
