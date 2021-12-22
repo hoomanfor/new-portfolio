@@ -26,11 +26,34 @@
 }
 
 .headshotSection {
+  position: relative;
+
+  img {
+    display: block;
+    border: 8px solid $pretty-black;
+    border-radius: 8px;
+    max-width: 300px;
+  }
+
+  a {
+    position: absolute;
+    bottom: -23px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   @media (max-width: 840px) {
     grid-column: span 2;
 
     img {
-      max-width: 150px;
+      max-width: 200px;
+      margin-bottom: $main-margin * .5;
+    }
+
+    a {
+      display: block;
+      position: relative;
+      bottom: 0;
     }
   }
 }

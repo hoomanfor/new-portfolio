@@ -30,7 +30,7 @@ export const ProjectCard = ({
           <b>{projectName}</b>
         </h3>
         <p className={styles.projectDescription}>{projectDescription}</p>
-        <Button url={projectUrl} text="Visit Site" />
+        <Button url={projectUrl} text="View Site" />
       </div>
     </div>
   );

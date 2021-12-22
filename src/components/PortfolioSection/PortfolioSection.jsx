@@ -17,9 +17,9 @@ export const PortfolioSection = () => {
         <div className={styles.projectsContainer}>
           <div className={styles.project1}>
             <ProjectCard
-              skill="Front-end Web Development"
+              skill="Front End/UI/UX"
               projectName="Lulu"
-              projectDescription="A platform where users can sell and print books."
+              projectDescription="A platform where users can publish, sell, and print books."
               projectUrl="https://www.lulu.com/"
               imageUrl={luluLogo}
               imageBackgroundColor="#000083"
@@ -27,7 +27,7 @@ export const PortfolioSection = () => {
           </div>
           <div className={styles.project2}>
             <ProjectCard
-              skill="Front-end Web Development"
+              skill="Front End/UI/UX"
               projectName="Lulu Junior"
               projectDescription="An online storefront that sells book-making kits for kids."
               projectUrl="https://www.lulujr.com/"

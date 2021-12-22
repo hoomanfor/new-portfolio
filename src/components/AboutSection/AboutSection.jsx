@@ -1,5 +1,7 @@
 import styles from "./AboutSection.module.scss";
-import headshot from "../../images/avatar_placeholder.png";
+import headshot from "../../images/me.png";
+import resume from "../../resume/hooman-web-dev-resume.pdf";
+import { Button } from "../Button/Button";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export const AboutSection = () => {
@@ -36,6 +38,7 @@ export const AboutSection = () => {
         </div>
         <div className={styles.headshotSection}>
           <img src={headshot} alt="Hooman's Headshot" />
+          <Button url={resume} text="View Resume" />
         </div>
       </div>
     </section>
