@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.596e0a76.chunk.css",
-    "main.js": "/new-portfolio/static/js/main.ee4e0ab6.chunk.js",
-    "main.js.map": "/new-portfolio/static/js/main.ee4e0ab6.chunk.js.map",
-    "runtime-main.js": "/new-portfolio/static/js/runtime-main.2201c796.js",
-    "runtime-main.js.map": "/new-portfolio/static/js/runtime-main.2201c796.js.map",
-    "static/js/2.a6498d60.chunk.js": "/new-portfolio/static/js/2.a6498d60.chunk.js",
-    "static/js/2.a6498d60.chunk.js.map": "/new-portfolio/static/js/2.a6498d60.chunk.js.map",
-    "static/js/3.b44722c8.chunk.js": "/new-portfolio/static/js/3.b44722c8.chunk.js",
-    "static/js/3.b44722c8.chunk.js.map": "/new-portfolio/static/js/3.b44722c8.chunk.js.map",
-    "index.html": "/new-portfolio/index.html",
-    "static/css/main.596e0a76.chunk.css.map": "/new-portfolio/static/css/main.596e0a76.chunk.css.map",
-    "static/js/2.a6498d60.chunk.js.LICENSE.txt": "/new-portfolio/static/js/2.a6498d60.chunk.js.LICENSE.txt",
-    "static/media/hooman-logo.5f9890a5.svg": "/new-portfolio/static/media/hooman-logo.5f9890a5.svg",
-    "static/media/hooman-web-dev-resume.c31d4d8a.pdf": "/new-portfolio/static/media/hooman-web-dev-resume.c31d4d8a.pdf",
-    "static/media/lulu-junior-logo.a558acdc.svg": "/new-portfolio/static/media/lulu-junior-logo.a558acdc.svg",
-    "static/media/lulu-logo.02dbad25.svg": "/new-portfolio/static/media/lulu-logo.02dbad25.svg",
-    "static/media/me.1233c711.png": "/new-portfolio/static/media/me.1233c711.png"
+    "main.css": "/portfolio/static/css/main.596e0a76.chunk.css",
+    "main.js": "/portfolio/static/js/main.b8cad77b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b8cad77b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2cf1d084.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2cf1d084.js.map",
+    "static/js/2.37d63986.chunk.js": "/portfolio/static/js/2.37d63986.chunk.js",
+    "static/js/2.37d63986.chunk.js.map": "/portfolio/static/js/2.37d63986.chunk.js.map",
+    "static/js/3.58b17c61.chunk.js": "/portfolio/static/js/3.58b17c61.chunk.js",
+    "static/js/3.58b17c61.chunk.js.map": "/portfolio/static/js/3.58b17c61.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.596e0a76.chunk.css.map": "/portfolio/static/css/main.596e0a76.chunk.css.map",
+    "static/js/2.37d63986.chunk.js.LICENSE.txt": "/portfolio/static/js/2.37d63986.chunk.js.LICENSE.txt",
+    "static/media/hooman-logo.5f9890a5.svg": "/portfolio/static/media/hooman-logo.5f9890a5.svg",
+    "static/media/hooman-web-dev-resume.c31d4d8a.pdf": "/portfolio/static/media/hooman-web-dev-resume.c31d4d8a.pdf",
+    "static/media/lulu-junior-logo.a558acdc.svg": "/portfolio/static/media/lulu-junior-logo.a558acdc.svg",
+    "static/media/lulu-logo.02dbad25.svg": "/portfolio/static/media/lulu-logo.02dbad25.svg",
+    "static/media/me.1233c711.png": "/portfolio/static/media/me.1233c711.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2201c796.js",
-    "static/js/2.a6498d60.chunk.js",
+    "static/js/runtime-main.2cf1d084.js",
+    "static/js/2.37d63986.chunk.js",
     "static/css/main.596e0a76.chunk.css",
-    "static/js/main.ee4e0ab6.chunk.js"
+    "static/js/main.b8cad77b.chunk.js"
   ]
 }
