@@ -32,14 +32,14 @@
 
   img {
     display: block;
-    border: 2px solid $pretty-black;
+    border: 1px solid $pretty-black;
     border-radius: 8px;
     max-width: 300px;
   }
 
   a {
     position: absolute;
-    bottom: -23px;
+    bottom: -26px;
     left: 50%;
     transform: translateX(-50%);
   }
