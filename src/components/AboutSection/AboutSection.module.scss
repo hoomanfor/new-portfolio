@@ -27,10 +27,12 @@
 
 .headshotSection {
   position: relative;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 15%);
+  border-radius: 8px;
 
   img {
     display: block;
-    border: 8px solid $pretty-black;
+    border: 2px solid $pretty-black;
     border-radius: 8px;
     max-width: 300px;
   }
@@ -44,6 +46,7 @@
 
   @media (max-width: 840px) {
     grid-column: span 2;
+    box-shadow: unset;
 
     img {
       max-width: 200px;
@@ -59,19 +62,37 @@
 }
 
 .iconsContainer {
-  font-size: $main-font-size * 2;
-  text-align: center;
+  font-size: $main-font-size * 2.5;
+  padding-left: $main-padding * .5;
 
-  svg {
-    fill: $pretty-black;
+  @media (max-width: 840px) {
+    padding-left: 0;
+    text-align: center;
+  }
 
-    &:first-child {
-      margin-right: $main-margin * .5;
+  .github{
+    padding-right: $main-padding * .5;
+    
+    svg{
+      fill: $pretty-black;
+
+      &:hover,
+      &:focus {
+        fill: $pretty-black-90;
+        transition: all 0.1s ease-in-out;
+      }
     }
+  }
 
-    &:hover,
-    &:focus {
-      fill: $pretty-black-80;
+  .linkedin{
+    svg{
+      fill:rgb(10, 102, 194);
+
+      &:hover,
+      &:focus {
+        fill: rgba(10, 102, 194, .9);
+        transition: all 0.1s ease-in-out;
+      }
     }
   }
 }
