@@ -6,15 +6,16 @@
 
   .emailContainer {
     position: relative;
-    display: inline-block;
     background-color: $pretty-black-10;
     padding: $main-padding $main-padding * 2;
-    border: 2px solid transparent;
-    border-radius: 2px; 
+    max-width: 250px;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 1px; 
 
     &:hover {
       cursor: pointer;
-      border: 2px dashed $pretty-black-90;
+      border: 1px dashed $pretty-black-90;
     }
 
     &:hover .tooltip {

@@ -11,7 +11,7 @@ export const Header = () => {
       <div className="global-max-width">
         <nav>
           <div className={styles.logoAndMenuContainer}>
-            <a target="_self" href="/">
+            <a target="_self" href="/portfolio">
               <img className={styles.logo} src={logo} alt="Hooman Logo" />
             </a>
             <div

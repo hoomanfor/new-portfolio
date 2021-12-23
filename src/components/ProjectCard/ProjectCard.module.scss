@@ -1,7 +1,7 @@
 @use '../../styles/variables' as *;
 
 .projectCard {
-  border: 2px solid $pretty-black;
+  border: 1px solid $pretty-black;
   border-radius: 8px;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 15%);
 }
@@ -11,7 +11,9 @@
   justify-content: center;
   align-items: center;
   min-height: 200px;
-
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  
   img {
     max-width: 200px; 
   }
@@ -45,7 +47,7 @@
 
   a {
     position: absolute;
-    bottom: -32px;
+    bottom: -28px;
     left: 50%;
     transform: translateX(-50%);
 
