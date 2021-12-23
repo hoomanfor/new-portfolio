@@ -23,16 +23,18 @@ export const AboutSection = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/hoomanfor/"
+              href="https://github.com/hoomanfor"
+              className={styles.github}
             >
-              <FaLinkedin />
+              <FaGithub />
             </a>
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/hoomanfor"
+              href="https://www.linkedin.com/in/hoomanfor/"
+              className={styles.linkedin}
             >
-              <FaGithub />
+              <FaLinkedin />
             </a>
           </div>
         </div>

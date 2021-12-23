@@ -1,8 +1,9 @@
 @use '../../styles/variables' as *;
 
 .projectCard {
-  border: 8px solid $pretty-black;
+  border: 2px solid $pretty-black;
   border-radius: 8px;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 15%);
 }
 
 .imageContainer {
