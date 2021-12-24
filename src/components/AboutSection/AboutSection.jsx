@@ -12,7 +12,7 @@ export const AboutSection = () => {
           <h1>
             Hello,
             <br />
-            I’m Hooman
+            I’m Hooman.
           </h1>
           <p>
             I’m a web developer living in the Research Triangle of Durham, NC. I
