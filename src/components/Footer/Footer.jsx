@@ -5,15 +5,15 @@ export const Footer = () => {
   return (
     <footer>
       <div className={styles.iconsContainer}>
+        <a target="_blank" rel="noreferrer" href="https://github.com/hoomanfor">
+          <FaGithub />
+        </a>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://www.linkedin.com/in/hoomanfor/"
         >
           <FaLinkedin />
-        </a>
-        <a target="_blank" rel="noreferrer" href="https://github.com/hoomanfor">
-          <FaGithub />
         </a>
       </div>
       <div className={styles.copywriteNotice}>
