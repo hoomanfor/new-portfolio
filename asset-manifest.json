@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f0c29bdf.chunk.css",
-    "main.js": "/portfolio/static/js/main.b0ff17da.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b0ff17da.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.2cf1d084.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2cf1d084.js.map",
-    "static/js/2.37d63986.chunk.js": "/portfolio/static/js/2.37d63986.chunk.js",
-    "static/js/2.37d63986.chunk.js.map": "/portfolio/static/js/2.37d63986.chunk.js.map",
-    "static/js/3.58b17c61.chunk.js": "/portfolio/static/js/3.58b17c61.chunk.js",
-    "static/js/3.58b17c61.chunk.js.map": "/portfolio/static/js/3.58b17c61.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.acf5c8a4.chunk.css",
+    "main.js": "/portfolio/static/js/main.67f69df7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.67f69df7.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d8c9ca8d.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d8c9ca8d.js.map",
+    "static/js/2.8483276c.chunk.js": "/portfolio/static/js/2.8483276c.chunk.js",
+    "static/js/2.8483276c.chunk.js.map": "/portfolio/static/js/2.8483276c.chunk.js.map",
+    "static/js/3.4dae7e92.chunk.js": "/portfolio/static/js/3.4dae7e92.chunk.js",
+    "static/js/3.4dae7e92.chunk.js.map": "/portfolio/static/js/3.4dae7e92.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.f0c29bdf.chunk.css.map": "/portfolio/static/css/main.f0c29bdf.chunk.css.map",
-    "static/js/2.37d63986.chunk.js.LICENSE.txt": "/portfolio/static/js/2.37d63986.chunk.js.LICENSE.txt",
+    "static/css/main.acf5c8a4.chunk.css.map": "/portfolio/static/css/main.acf5c8a4.chunk.css.map",
+    "static/js/2.8483276c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8483276c.chunk.js.LICENSE.txt",
     "static/media/hooman-logo.5f9890a5.svg": "/portfolio/static/media/hooman-logo.5f9890a5.svg",
-    "static/media/hooman-web-dev-resume.da3756d2.pdf": "/portfolio/static/media/hooman-web-dev-resume.da3756d2.pdf",
+    "static/media/hooman-web-dev-resume.00c3a394.pdf": "/portfolio/static/media/hooman-web-dev-resume.00c3a394.pdf",
     "static/media/lulu-junior-logo.a558acdc.svg": "/portfolio/static/media/lulu-junior-logo.a558acdc.svg",
     "static/media/lulu-logo.02dbad25.svg": "/portfolio/static/media/lulu-logo.02dbad25.svg",
     "static/media/me.1233c711.png": "/portfolio/static/media/me.1233c711.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2cf1d084.js",
-    "static/js/2.37d63986.chunk.js",
-    "static/css/main.f0c29bdf.chunk.css",
-    "static/js/main.b0ff17da.chunk.js"
+    "static/js/runtime-main.d8c9ca8d.js",
+    "static/js/2.8483276c.chunk.js",
+    "static/css/main.acf5c8a4.chunk.css",
+    "static/js/main.67f69df7.chunk.js"
   ]
 }
