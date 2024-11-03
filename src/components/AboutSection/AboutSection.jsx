@@ -15,9 +15,9 @@ export const AboutSection = () => {
             I’m Hooman.
           </h1>
           <p>
-            I’m a web developer living in the Research Triangle of Durham, NC. I
-            build web solutions using data-driven decision-making. I solve
-            problems using the scientific method.
+            I’m a web developer living in Woodstock, GA. I build web solutions
+            using data-driven decision-making. I solve problems using the
+            scientific method.
           </p>
           <div className={styles.iconsContainer}>
             <a
